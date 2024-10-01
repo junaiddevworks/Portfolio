@@ -31,9 +31,7 @@ const RecentProjects = () => {
                     <Image 
                       src="/bg.png" 
                       alt="bgimg" 
-                      layout="responsive" // Ensures responsiveness
-                      width={100} // These act as aspect ratios
-                      height={100} // Aspect ratio, doesn't force fixed size
+                      fill
                       className="object-contain"
                       
                       />
@@ -43,9 +41,9 @@ const RecentProjects = () => {
                   <Image
                     src={item.img}
                     alt="cover"
-                    layout="responsive" // Ensures responsiveness
-                    width={100} // These act as aspect ratios
-                    height={100} // Aspect ratio, doesn't force fixed size
+                    layout="responsive"
+                    width={100}
+                    height={100}
                     className="object-contain"
                   />
                 </div>

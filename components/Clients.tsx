@@ -22,9 +22,7 @@ const Clients = () => {
                 <Image
                   src={company.img}
                   alt={company.name}
-                  layout="responsive"
-                  width={100} // These act as aspect ratios
-                    height={100} // Aspect ratio, doesn't force fixed size
+                  fill
                     className="object-contain"
                   
                 />
