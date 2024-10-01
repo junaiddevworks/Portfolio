@@ -7,6 +7,8 @@ const nextConfig = {
         unoptimized: true,
     },
     trailingSlash: true,
+    basePath: '/portfolio',
+    assetPrefix: '/portfolio/',
 };
 
 // export default withSentryConfig(nextConfig, {
