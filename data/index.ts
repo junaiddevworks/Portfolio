@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: "MERN Admin Dashboard",
     des: "Built and Deployed a MERN Stack Admin Dashboard.For frontend, i used Material UI, Material UI Data Grid, Nivo Charts, Redux Toolkit and Redux Toolkit Query. For backend, i used Node JS, Express Js, Mongoose, and MongoDB.",
-    img: "/p1.png",
+    img: "./p1.png",
     iconLists: ["/re.svg", "/nodejs.png", "/mongodb.png", "/redux.png", "/material-ui.png"],
     link: "https://github.com/junaiddevworks/MERN-Admin-Dashbaord",
   },
