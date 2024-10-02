@@ -141,32 +141,32 @@ export const companies = [
   {
     id: 1,
     name: "HTML 5",
-    img: "/html.png",
+    img: "./html.png",
   },
   {
     id: 2,
     name: "CSS 3",
-    img: "/css.png",
+    img: "./css.png",
   },
   {
     id: 3,
     name: "JavaScript",
-    img: "/javascript.png",
+    img: "./javascript.png",
   },
   {
     id: 4,
     name: "Tailwind CSS",
-    img: "/tailwind.png",
+    img: "./tailwind.png",
   },
   {
     id: 5,
     name: "React JS",
-    img: "/reactjs.png",
+    img: "./reactjs.png",
   },
   {
     id: 6,
     name: "Next JS",
-    img: "/next.png",
+    img: "./next.png",
   },
   {
     id: 7,
