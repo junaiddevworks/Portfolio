@@ -29,7 +29,7 @@ const RecentProjects = () => {
                 >
                   <div>
                     <Image 
-                      src="/bg.png" 
+                      src="./bg.png" 
                       alt="bgimg" 
                       fill
                       className="object-contain"
