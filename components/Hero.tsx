@@ -48,7 +48,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">
-            {`Hi, I&apos;m Junaid, a MERN Stack Developer based in Pakistan. I specialize in developing responsive, dynamic, and high-performance web applications that solve real-world problems and enhance user experiences.`}
+            {`Hi, I'm Junaid, a MERN Stack Developer based in Pakistan. I specialize in developing responsive, dynamic, and high-performance web applications that solve real-world problems and enhance user experiences.`}
           </p>
 
           <a href="#about">
