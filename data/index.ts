@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "./b1.svg",
     spareImg: "",
   },
   {
@@ -43,8 +43,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    img: "./grid.svg",
+    spareImg: "./b4.svg",
   },
 
   {
@@ -54,8 +54,8 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
+    img: "./b5.svg",
+    spareImg: "./grid.svg",
   },
   {
     id: 6,
@@ -82,7 +82,7 @@ export const projects = [
     id: 2,
     title: "Inventory Management Dashboard",
     des: "Build and Deploy a Complete Full Stack Inventory Management Dashboard Application using Nextjs, Redux, Node, and AWS.",
-    img: "/p2.png",
+    img: "./p2.png",
     iconLists: ["/next.svg", "/tail.svg", "/nodejs.png", "/ec2.png", "/Amazon-S3.png"],
     link: "https://github.com/junaiddevworks/-Inventory-Management-Dashboard",
   },
@@ -90,7 +90,7 @@ export const projects = [
     id: 3,
     title: "Hotel Booking App",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.png",
+    img: "./p3.png",
     iconLists: ["/reactjs.png", "/nodejs.png", "/expressjs.png", "/mongodb.png", "/cloud.svg"],
     link: "https://github.com/junaiddevworks/Hotel-Booking-App",
   },
@@ -98,7 +98,7 @@ export const projects = [
     id: 4,
     title: "Healthcare platform",
     des: "Platform that streamlines patient registration, appointment scheduling, and medical records, and learn to implement complex   forms and SMS notifications.",
-    img: "/p4.png",
+    img: "./p4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://github.com/junaiddevworks/Health-Platform",
   },
@@ -171,72 +171,72 @@ export const companies = [
   {
     id: 7,
     name: "Redux",
-    img: "/redux.png",
+    img: "./redux.png",
   },
   {
     id: 8,
     name: "Material UI",
-    img: "/material-ui.png",
+    img: "./material-ui.png",
   },
   {
     id: 9,
     name: "SCSS",
-    img: "/scss.png",
+    img: "./scss.png",
   },
   {
     id: 10,
     name: "Node JS",
-    img: "/nodejs.png",
+    img: "./nodejs.png",
   },
   {
     id: 11,
     name: "Express JS",
-    img: "/expressjs.png",
+    img: "./expressjs.png",
   },
   {
     id: 12,
     name: "MongoDB",
-    img: "/mongodb.png",
+    img: "./mongodb.png",
   },
   {
     id: 13,
     name: "Mongoose",
-    img: "/mongoose.png",
+    img: "./mongoose.png",
   },
   {
     id: 14,
     name: "Git",
-    img: "/git.png",
+    img: "./git.png",
   },
   {
     id: 15,
     name: "GitHub",
-    img: "/github.png",
+    img: "./github.png",
   },
   {
     id: 16,
     name: "EC2",
-    img: "/ec2.png",
+    img: "./ec2.png",
   },
   {
     id: 17,
     name: "S3",
-    img: "/Amazon-S3.png",
+    img: "./Amazon-S3.png",
   },
   {
     id: 18,
     name: "Mosquitto",
-    img: "/mosquitto.png",
+    img: "./mosquitto.png",
   },
   {
     id: 19,
     name: "Docker",
-    img: "/dock.svg",
+    img: "./dock.svg",
   },
   {
     id: 20,
     name: "Kubernetes",
-    img: "/kubernetes.svg",
+    img: "./kubernetes.svg",
   },
 ];
 
@@ -246,42 +246,42 @@ export const workExperience = [
     title: "Frontend Development",
     desc: "Crafting dynamic, responsive, and user-friendly interfaces with modern JavaScript frameworks.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "./exp1.svg",
   },
   {
     id: 2,
     title: "UI Designing",
     desc: "Designing intuitive, visually engaging, and accessible user interfaces that enhance the overall user experience.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "./exp2.svg",
   },
   {
     id: 3,
     title: "Backend Development",
     desc: "Building robust, scalable server-side applications and APIs, ensuring secure and efficient data handling.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "./exp3.svg",
   },
   {
     id: 4,
     title: "AWS & Cloud Services",
     desc: "Deploying and managing cloud-based infrastructure, optimizing performance, scalability, and security with AWS.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "./exp4.svg",
   },
 ];
 
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "./git.svg",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "./twit.svg",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "./link.svg",
   },
 ];
