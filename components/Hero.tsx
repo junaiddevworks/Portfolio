@@ -8,10 +8,6 @@ import { BackgroundBeams } from "./ui/BgBeams";
 const Hero = () => {
   return (
     <div className="pb-20 pt-36">
-      {/**
-       *  UI: Spotlights
-       *  Link: https://ui.aceternity.com/components/spotlight
-       */}
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -37,11 +33,6 @@ const Hero = () => {
             Full-Stack MERN Developer
           </p>
 
-          {/**
-           *  Link: https://ui.aceternity.com/components/text-generate-effect
-           *
-           *  change md:text-6xl, add more responsive code
-           */}
           <TextGenerateEffect
             words="Building Scalable Web Applications & Intuitive User Interfaces"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"

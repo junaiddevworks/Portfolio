@@ -70,8 +70,24 @@ export const gridItems = [
 ];
 
 export const projects = [
-  {
+    {
     id: 1,
+    title: "Fleet Management System",
+    des: "Built and Deployed a Fleet Management System to track live locations of Vehicles and its stats. It have features of history Data, Geofencing, Alarms, Reports and Analytics.",
+    img: "./p5.PNG",
+    iconLists: ["./re.svg", "./nodejs.png", "./mongodb.png", "./redux.png", "./ec2.png"],
+    link: "https://smarttrackpk.com/",
+  },
+    {
+    id: 2,
+    title: "Smart Street Light System",
+    des: "Built and Deployed a Automated Street Light System to Control the lights with dimming feature. It help to automate system with schedulling and Energy Saving.",
+    img: "./p6.PNG",
+    iconLists: ["./next.svg", "./nodejs.png", "./mongodb.png", "./tail.svg", "./cloud.svg"],
+    link: "http://119.152.22.90:3333/",
+  },
+  {
+    id: 3,
     title: "MERN Admin Dashboard",
     des: "Built and Deployed a MERN Stack Admin Dashboard.For frontend, i used Material UI, Material UI Data Grid, Nivo Charts, Redux Toolkit and Redux Toolkit Query. For backend, i used Node JS, Express Js, Mongoose, and MongoDB.",
     img: "./p1.PNG",
@@ -79,7 +95,7 @@ export const projects = [
     link: "https://github.com/junaiddevworks/MERN-Admin-Dashbaord",
   },
   {
-    id: 2,
+    id: 4,
     title: "Inventory Management Dashboard",
     des: "Build and Deploy a Complete Full Stack Inventory Management Dashboard Application using Nextjs, Redux, Node, and AWS.",
     img: "./p2.png",
@@ -87,7 +103,7 @@ export const projects = [
     link: "https://github.com/junaiddevworks/-Inventory-Management-Dashboard",
   },
   {
-    id: 3,
+    id: 5,
     title: "Hotel Booking App",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "./p3.PNG",
@@ -95,7 +111,7 @@ export const projects = [
     link: "https://github.com/junaiddevworks/Hotel-Booking-App",
   },
   {
-    id: 4,
+    id: 6,
     title: "Healthcare platform",
     des: "Platform that streamlines patient registration, appointment scheduling, and medical records, and learn to implement complex   forms and SMS notifications.",
     img: "./p4.PNG",
